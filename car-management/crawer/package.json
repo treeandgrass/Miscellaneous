@@ -1,0 +1,22 @@
+{
+  "name": "crawer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./src/start.js",
+    "server": "runjs ./src/server/router/router.js",
+    "serverpro": "node ./src/server/router/router.js",
+    "start-parse-url": "node  ./src/start.js url",
+    "start-down-image": "node  ./src/start.js image"
+  },
+  "dependencies": {
+    "fastify": "^1.2.0",
+    "mongoose": "^5.0.11",
+    "openalpr_api": "^2.0.1",
+    "puppeteer": "^1.2.0",
+    "redis": "^2.8.0",
+    "run": "^1.4.0",
+    "serve-static": "^1.13.2"
+  }
+}
